@@ -125,7 +125,7 @@ function simple_rental_custom_js() {
 }
 add_action( 'admin_footer', 'simple_rental_custom_js' );
 
-<?php
+
 /**
  * Add a custom product tab.
  */
@@ -176,6 +176,5 @@ function save_rental_option_field( $post_id ) {
 }
 add_action( 'woocommerce_process_product_meta_simple_rental', 'save_rental_option_field'  );
 add_action( 'woocommerce_process_product_meta_variable_rental', 'save_rental_option_field'  );
-
 
 
