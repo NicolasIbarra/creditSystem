@@ -10,7 +10,7 @@ if ( !defined( 'ABSPATH' ) ) exit;
 // add a product type
 add_filter( 'product_type_selector', 'wdm_add_custom_product_type' );
 function wdm_add_custom_product_type( $types ){
-    $types[ 'wdm_custom_product' ] = __( 'Wdm Product' );
+    $types[ 'wdm_custom_product' ] = __( 'Nuevo Producto' );
     return $types;
 }
 
